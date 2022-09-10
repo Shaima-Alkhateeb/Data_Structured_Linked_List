@@ -1,0 +1,23 @@
+{
+  "name": "data_structured_linked_list",
+  "version": "1.0.0",
+  "description": "Linked List lab 03",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaima-Alkhateeb/Data_Structured_Linked_List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaima-Alkhateeb/Data_Structured_Linked_List/issues"
+  },
+  "homepage": "https://github.com/Shaima-Alkhateeb/Data_Structured_Linked_List#readme",
+  "dependencies": {
+    "jest": "^29.0.2"
+  }
+}
