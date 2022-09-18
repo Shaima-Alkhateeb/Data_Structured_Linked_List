@@ -43,7 +43,18 @@ class LinkedList {
     this.length++;
   }
 
-  removeAtIndex(index) {//3
+  deleteTheMiddle() {//3
+    if (this.head == null) return null;
+    if (this.head.next == null) {
+      this.head = this.head.next;
+      return null;
+    }
+    let middle = parseInt(this.length / 2);
+    this.removeAtIndex(middle);
+
+  }
+
+  removeAtIndex(index) {
     if (index === 0) return this.removeHead();
 
     const prev = this.getByIndex(index - 1);
